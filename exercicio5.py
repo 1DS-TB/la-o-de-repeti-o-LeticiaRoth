@@ -9,4 +9,4 @@ if divisores == 2:
     print(f"{num } é primo")
 
 else:
-    print(f"{n} não é primo")
+    print(f"{num} não é primo")
