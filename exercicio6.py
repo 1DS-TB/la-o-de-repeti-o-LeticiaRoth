@@ -9,4 +9,4 @@ while i < numero:
     print(a, end=" ")
     a, b = b, a + b
     i += 1
->>>>>>> f2747d953f3aa011d969c39c12d3beaa7cecdd31
+
