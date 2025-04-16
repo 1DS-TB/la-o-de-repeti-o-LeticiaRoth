@@ -1,7 +1,7 @@
 num = int(input("Digite um número:"))
 
 if num < 0:
-    print("OK")
+    print("INVALIDO")
 else:
     fatorial = 1
     while num > 0:
