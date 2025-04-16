@@ -1,8 +1,8 @@
 numero = int(input("Digite um número: "))
 divisor = 0
 
-for i in range(1, num +1):
-    if numero % i == 0 and num >= 1:
+for i in range(1, numero +1):
+    if numero % i == 0 and numero >= 1:
         divisor +=1
 
 if divisor == 2:
