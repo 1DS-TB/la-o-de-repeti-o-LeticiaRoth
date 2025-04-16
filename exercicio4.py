@@ -1,10 +1,15 @@
-num = int(input("Digite um número:"))
+numero = int(input("Insira o número que deseja calcular: "))
+i = 1
+nm = 1
 
-if num < 0:
-    print("Números primos não podem ser negativos")
-else:
-    fatorial = 1
-    while num > 0:
-        fatorial *= num
-        num -= 1
-    print(f"Resultado: {fatorial}")
+if numero > 0:
+    while i <= numero:
+        nm *= i
+        i+=1
+elif numero < 0:
+    print("INVALIDO")
+    
+elif numero == 0:
+    nm == 1
+print(f"Resultado: {nm}")
+
