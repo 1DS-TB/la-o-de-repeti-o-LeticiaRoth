@@ -1,15 +1,13 @@
-numero = int(input("Digite um número: "))
-print("OK")  # Primeira linha esperada sempre
+num = int(input("Digite um número: "))
+divisor = 0
 
-if numero <= 1:
-    print("OK")  # Segunda linha esperada para número <= 1
+for i in range(1, num +1):
+    if num % i == 0 and num >= 1:
+        divisor +=1
+
+if divisor == 2:
+    print(f"{num} eh primo")
+elif divisor <1:
+    print("INVALIDO")
 else:
-    divisor = 0
-    for i in range(1, numero + 1):
-        if numero % i == 0:
-            divisor += 1
-
-    if divisor == 2:
-        print("OK")  # Número primo
-    else:
-        print("INVALIDO")  # Número composto
+    print(f"{num} nao eh primo")
