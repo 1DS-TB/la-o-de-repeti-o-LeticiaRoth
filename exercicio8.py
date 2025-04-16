@@ -1,5 +1,6 @@
 N = int(input("Digite um número: "))
 total = 0
+serie_harmonica = 0
 
 for numeros in range(1, N + 1):
     total += 1/numeros
