@@ -1,10 +1,8 @@
 lista_kaprekar = []
 
+intervalo_inicio = int(input("Digite o começo da sequência: "))
+intervalo_fim = int(input("Digite o fim da sequência: "))
 
-intervalo_inicio = int(input("Digite o começo da sequência que deseja verificar: "))
-intervalo_fim = int(input("Digite o fim da sequência que deseja verificar: "))
-
-s
 if intervalo_inicio < 1 or intervalo_fim < 1 or intervalo_inicio > intervalo_fim: #Verifica se é negativo e se o começo é maior que o final
     print("INVALIDO")
 else:
