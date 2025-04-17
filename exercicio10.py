@@ -3,7 +3,7 @@ lista_kaprekar = []
 intervalo_inicio = int(input("Digite o começo da sequência: "))
 intervalo_fim = int(input("Digite o fim da sequência: "))
 
-if intervalo_inicio < 1 or intervalo_fim < 1 or intervalo_inicio > intervalo_fim: #Verifica se é negativo e se o começo é maior que o final
+if intervalo_inicio < 1 or intervalo_fim < 1 or intervalo_inicio > intervalo_fim and intervalo_inicio <= 0 or intervalo_fim <= 0: #Verifica se é negativo e se o começo é maior que o final
     print("INVALIDO")
 else:
     for numero in range(intervalo_inicio, intervalo_fim + 1):
