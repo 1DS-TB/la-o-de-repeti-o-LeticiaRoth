@@ -2,7 +2,7 @@ N = int(input("Digite um número: "))
 total = 0
 serie_harmonica = 0
 
-if N < 1:
+if N <= 0:
     print("INVALIDO")
 else:
     for numeros in range(1, N + 1):
